@@ -1,4 +1,7 @@
 package quantified_self.domain;
+import java.util.List;
+import javax.persistence.ManyToMany;
+import javax.persistence.JoinColumn;
 
 public class Food implements Identifiable {
 
@@ -6,6 +9,8 @@ public class Food implements Identifiable {
       private String name;
       private Long calories;
 
+      @ManyToMany(mappedBy = "meals")
+      private List<Meal> meals;
       @Override
       public Long getId(){
         return id;

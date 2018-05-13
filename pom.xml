@@ -88,6 +88,11 @@
 		<dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-tomcat</artifactId>
+			</dependency>
+			<dependency>
+  <groupId>javax.persistence</groupId>
+  <artifactId>persistence-api</artifactId>
+  <version>1.0</version>
 </dependency>
 	</dependencies>
 
