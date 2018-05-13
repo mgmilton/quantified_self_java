@@ -1,10 +1,11 @@
 package quantified_self.domain;
 import java.util.List;
+import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
 import javax.persistence.JoinColumn;
 
+@Entity
 public class Food implements Identifiable {
-
       private Long id;
       private String name;
       private Long calories;
