@@ -1,4 +1,4 @@
-package quantified_self;
+package quantified_self.resource;
 
 import java.util.Collection;
 import java.util.stream.Collectors;

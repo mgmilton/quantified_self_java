@@ -1,4 +1,4 @@
-package quantified_self;
+package quantified_self.repository;
 
 import java.util.concurrent.atomic.AtomicLong;
 

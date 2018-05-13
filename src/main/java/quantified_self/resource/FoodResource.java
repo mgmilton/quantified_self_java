@@ -1,4 +1,4 @@
-package quantified_self;
+package quantified_self.resource;
 
 import org.springframework.hateoas.ResourceSupport;
 

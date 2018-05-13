@@ -1,4 +1,4 @@
-package quantified_self;
+package quantified_self.repository;
 
 import org.springframework.stereotype.Repository;
 
