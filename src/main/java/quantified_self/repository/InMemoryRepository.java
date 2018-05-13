@@ -1,4 +1,4 @@
-package qunatified_self.repository;
+package quantified_self.repository;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,6 +1,6 @@
 package quantified_self.domain;
 
-public class Food implements Indentifiable {
+public class Food implements Identifiable {
 
       private Long id;
       private String name;
