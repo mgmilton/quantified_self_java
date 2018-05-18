@@ -1,5 +1,5 @@
 package quantified_self.controller;
-s
+ss
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
